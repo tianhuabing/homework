@@ -42,16 +42,27 @@ li{
     text-align: center;
 }
 .left-nav{
-    background: paleturquoise;
     width: 100px;
     position: absolute;
     top:65px;
-    left:20px
+    left:20px;
+    text-align: center;
+    border: 1px solid #ccc;
 }
 .left-nav>ul{
     list-style: none;
     
 }
+.left-nav>ul>li>a:link{
+    color: rgb(214, 76, 76);
+    display: block;
+    width: 100px;
+    height: 16.666;
+    border: 1px solid black;
+}
+.left-nav>ul>li>a:hover{
+    color: darkorange;
+}
 .left-nav>ul>li>a{
-    text-decoration: none；
+    text-decoration: none;
 }
