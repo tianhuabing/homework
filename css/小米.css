@@ -1,0 +1,715 @@
+*{margin: 0;padding: 0}
+body{
+    height: 2500px;
+}
+.top-line{
+    width: 100%;
+    height: 40px;
+    background: #fafafa;
+    border-bottom:1px  solid #e1e1e1;
+}
+.nav{
+    width: 1240px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+li{
+    list-style: none;
+    float: left;
+    line-height: 40px;
+    color: #a29999;
+}
+.nav-1,.nav-2,.nav-3,.nav-4,.nav-5,.nav-6,.nav-7{
+    margin-right: 20px;
+}
+.nav-9{
+    margin-right: 20px;
+}
+.nav-left>li>a{
+    text-decoration: none;
+    color: #a29999;
+}
+.nav-left>li>a:hover{
+    color: #ff4a00;
+}
+.nav-right>li>a{
+    text-decoration: none;
+    color: #a29999;
+}
+.nav-right>li>a:hover{
+    color: #ff4a00;
+}
+.nav-right{
+    position: absolute;
+    right: 0;
+} 
+.search{
+    width: 1240px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.search>a{
+    text-decoration: none;
+    color:black;
+}
+.search>a:hover{
+    color: #ff4a00;
+}
+.mi-logo{
+    height: 70px;
+    width: 70;
+    border-radius: 5% 
+}
+form {
+            width:420px;
+            height:40px;
+            position: relative;
+            position: absolute;
+            right: 0;
+            bottom:0;
+            right: 135px;
+            
+        }
+
+        input {
+            box-sizing: border-box;
+            width: 380px;
+            height: 40px;
+            border: 1px solid #cecece;
+            position:absolute;
+            left:0;
+            top:0;
+        }
+
+        button {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background: white;
+            border: 1px solid #cecece;
+            border-left: 0px;
+            right:0;
+            top:0;
+            /* color:#fff; */
+        }
+        button:hover{
+            cursor: pointer;
+        }
+        .shop-car{
+            width: 125px;
+            height: 40px;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            background:#ffdb3d; 
+            bottom: 0;
+            text-align: center;
+        }
+        .car-name{
+            line-height: 40px;
+        }
+        .time-date{
+            width: 125px;
+            height: 30px;
+            /* background: red; */
+            position: absolute;
+            right: 0;
+            top:0;
+            text-align:center;
+        }
+        .clock{
+            margin-right: 2px;
+            margin-bottom: -2px;
+        }
+        .date{
+            /* line-height: 30px; */
+            font-size: 13px;
+            color: #808080;
+            margin-right: 0;
+        }
+        .main-container{
+            width: 1240px;
+            height: 630px;
+            /* background: pink; */
+            margin: auto;
+            position: relative;
+                }
+        .type{
+            width: 248px;
+            height: 40px;
+            background: #ff4a00;
+        }
+        .type>span{
+            color: white;
+            line-height: 40px;
+            margin-left: 24px;
+
+        }
+        .left-type{
+            height: 590px;
+            width: 248px;
+            /* background: #ffdb3d; */
+        }
+        .left-type>div{
+            width: 246px;
+            height: 72.75px;
+           border-left: #dfdfdf 1px solid;
+           /* border-right: #dfdfdf 1px solid; */
+           border-bottom: #dfdfdf 1px solid;
+        }
+        .left-type1,.left-type2,.left-type3,.left-type4,.left-type5,.left-type6,.left-type7,.left-type8{
+            position: relative;
+        }
+        .left-type>div>p{
+            margin-left: 24px;
+            font-size: 12px;
+            position: absolute;
+            top:18px;
+            color:#fe763e;
+            
+        }
+        .mini-shops{
+            margin-left: 24px;
+            font-size: 12px;
+            position: absolute;
+            bottom:10px;
+            color: #9999a5;
+        }
+        .mini-shops>span{
+            display: block;
+            float: left;
+            margin-right: 10px;
+        }
+        .type-nav{
+            width: 992px;
+            height: 40px;
+            background: #404144;
+            position: absolute;
+            top:0;
+            right:0;
+            overflow: hidden;
+            text-align: center;
+        }
+        .nav-head{
+            float: left;
+            list-style: none;
+            /* line-height: 40px; */
+            
+        }
+        .nav-head>li{
+            margin-left: 50px;
+            color: white;
+        }
+        .nav-head>li>a{
+            text-decoration: none;
+            color: white;
+        }
+        .nav-head>li>a:hover{
+            color: #ff4a00;
+        }
+        .chazuo-img{
+            width: 992px;
+            height: 420px;
+            background: url("../images/banner5.png");
+            position: absolute;
+            top:40px;
+            right: 0;
+        }
+        .redmi-img{
+            width: 330px;
+            height: 170px;
+            background: url("../images/01.png");
+            position: absolute;
+            bottom: 0;
+            left: 248px;
+            border-right: #dfdfdf 1px solid;
+            border-bottom: #dfdfdf 1px solid;
+        }
+        .minimi-img{
+            width: 330px;
+            height: 170px;
+            background: url("../images/02.png");
+            position: absolute;
+            bottom: 0;
+            right: 330px;
+            border-right: #dfdfdf 1px solid;
+            border-bottom: #dfdfdf 1px solid;
+        }
+        .mininote-img{
+            width: 330px;
+            height: 170px;
+            background: url("../images/03.png");
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            border-bottom: #dfdfdf 1px solid;
+        }
+        .nav-head{
+            float: left;
+        }
+        .peijian{
+            width: 1240px;
+            height: 60px;
+            margin: auto;
+            /* background: #c99ec3; */
+            position: relative;
+        }
+        .star-single{
+            line-height: 60px;
+            color: #7a7a7a;
+            font-size: 18px;
+
+
+        }
+        .phone-peijian{
+            line-height: 60px;
+            margin-left: 10px;
+            color: #9d9ba4;
+            font-size: 14px;
+        }
+        .right-jiantou{
+            width: 30px;
+            height: 20px;
+            position: absolute;
+            bottom: 8px;
+            right: 1px;
+            border: #babbbe solid 1px;
+            border-left: 0;
+            text-align: center;
+            line-height: 24px;
+        }
+        .left-jiantou{
+            width: 30px;
+            height: 20px;
+            position: absolute;
+            bottom: 8px;
+            right: 31px;
+            border: #babbbe solid 1px;
+            text-align: center;
+            line-height: 24px;
+        }
+        table{
+            margin: auto;
+        }
+        table,tr,td{
+            border:1px solid rgb(155, 148, 155);
+        }
+        table{
+            width: 1240px;
+            height: 310px;
+            border-collapse: collapse;
+        
+        }
+        .kuang-1{
+            position: relative;
+        }
+        .first-peijian{
+            width: 220px;
+            height: 220px;
+            position: absolute;
+            top:0;
+            left: 44.875px;
+            right: 44.875px;
+        }
+         .kuang-2{
+            position: relative;
+        }
+        .second-peijian{
+            width: 220px;
+            height: 220px;
+            position: absolute;
+            top:0;
+            left: 44.875px;
+            right: 44.875px;
+        }
+         .kuang-3{
+            position: relative;
+        }
+        .third-peijian{
+            width: 220px;
+            height: 220px;
+            position: absolute;
+            top:0;
+            left: 44.875px;
+            right: 44.875px;
+        }
+         .kuang-4{
+            position: relative;
+        }
+        .forth-peijian{
+            width: 220px;
+            height: 220px;
+            position: absolute;
+            top:0;
+            left: 44.875px;
+            right: 44.875px;
+        }
+        .peijian-name1{
+            width: 309.75px;
+            height: 89px;
+            position: absolute;
+            bottom: 0;
+            text-align: center;
+        }
+        .peijian-name2{
+            width: 309.75px;
+            height: 89px;
+            position: absolute;
+            bottom: 0;
+            text-align: center;
+        }
+        .peijian-name3{
+            width: 309.75px;
+            height: 89px;
+            position: absolute;
+            bottom: 0;
+            text-align: center;
+        }
+        .peijian-name4{
+            width: 309.75px;
+            height: 89px;
+            position: absolute;
+            bottom: 0;
+            text-align: center;
+        }
+        .peijian-name-1{
+            font-size: 16px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            color: #464444;
+        }
+        .peijian-name-2{
+            font-size: 12px;
+            color: #aeacb3;
+        }
+        .news-show{
+            width: 1240px;
+            height: 50px;
+            position: relative;
+            margin: auto;
+            /* margin-bottom: 35px; */
+        }
+        .news-show1{
+            position: absolute;
+            left: 0;
+            bottom: 8px;
+            color: #737374;
+        }
+        .news-show2{
+            position: absolute;
+            right: 0;
+            bottom: 8px;
+            color: #737374;
+        }
+        .news-shop{
+            width: 1240px;
+            height: 971px;
+            margin: auto;
+            /* background: #1919b8; */
+            position: relative;
+        }
+        .fanghezi{
+            width: 620px;
+            height: 322.33px;
+            border: 1px solid #cccc;
+            top: 0px;
+            left: 0px;
+        }
+        .hand-ring{
+            width: 310px;
+            height: 322.33px;
+            position: absolute;
+            border:  1px solid #cccc;
+            border-left: 0;
+            top: 0;
+            left: 621px;
+        }
+        .hand-ring>img{
+            margin-top: -15px;
+            margin-left: 45.5px;
+        }
+        .hand-ring>div>p{
+            color: rgba(59, 58, 58, 0.795);
+            
+        }
+        .hand-ring>div{
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        .news-shop-right{
+            width: 307px;
+            height: 971px;
+            position: absolute;
+            border: 1px solid #ccc;
+            top: 0;
+            right: 0;
+            background: #fafafa;
+        }
+        .special-sale1{
+            width: 308px;
+            height: 129px;
+            border-bottom: 1px solid #ccc;
+            position: relative;
+        }
+        .special-sale2{
+            width: 308px;
+            height: 129px;
+            border-bottom: 1px solid #ccc;
+            position: relative;
+        }
+        .special-sale3{
+            width: 308px;
+            height: 129px;
+            border-bottom: 1px solid #ccc;
+            position: relative;
+        }
+        .special-name{
+            width: 56px;
+            height: 19px;
+            background: red;
+            text-align: center;
+            margin-left: 55px;
+        }
+        .special-name>span{
+            color: white;
+            font-size: 14px;
+        }
+        .cunchu-card{
+            margin-left: 25px;
+            margin-top: 30px;
+        }
+        .cunchu-card>.p1{
+            letter-spacing: 1px;
+            color: #363534;
+            font-size: 18px;
+        }
+        .cunchu-card>.span2{
+            text-decoration: line-through;
+            color: #7a7a7a;
+            font-size: 16px;
+        }
+        .cunchu-card>.span1{
+            color: red;
+            font-size: 16px;
+        }
+        .cunchu-card>.p2{
+            font-size: 16px;
+            color: #7a7a7a;
+        }
+        .cunchu-card-img{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            right: 13px;
+            top: 15px;
+        }
+        .zuhe-taocan{
+            margin-left: 25px;
+            margin-top: 30px;
+        }
+        .zuhe-taocan>.p1{
+            letter-spacing: 1px;
+            color: #363534;
+            font-size: 18px;
+        }
+        .zuhe-taocan>.p2,.p3{
+            font-size: 16px;
+            color: #7a7a7a;
+        }
+        .zuhe-taocan-img{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            right:15px;
+            top: -15px;
+        }
+        .kuwan-dianzi{
+            margin-left: 25px;
+            margin-top: 30px;
+        }
+        .kuwan-dianzi>.p1{
+            letter-spacing: 1px;
+            color: #363534;
+            font-size: 18px;
+        }
+        .kuwan-dianzi>.p2,.p3{
+            font-size: 16px;
+            color: #7a7a7a;
+        }
+        .kuwan-dianzi-img{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            right:15px;
+            top: -15px;
+        }
+        .key-blooth{
+            width: 310px;
+            height: 322.33px;
+            position: absolute;
+            top:323.33px;
+            left: 0;
+            border:  1px solid #ccc;
+            /* border-top: 0; */
+        }
+        .key{
+            width: 310px;
+            height: 159.665px;
+            border-bottom:  1px solid #ccc;
+            position: relative;
+        }
+        .key>img{
+            position: absolute;
+            right:80px;
+            top: 20px;
+        }
+        .key>div{
+            position: absolute;
+            left: 15px;
+            top: 15px;
+            color:#74787a;
+        }
+        .blooth{
+            width: 310px;
+            height: 160.665px;
+            position: relative;
+        }
+        .blooth>img{
+            position: absolute;
+            right:80px;
+            top: 20px;
+        }
+        .blooth>div{
+            position: absolute;
+            left: 15px;
+            top: 15px;
+            color:#74787a;
+        }
+        .t-shirt{
+            width: 309px;
+            height: 322.33px;
+            border:1px solid #ccc; 
+            position: absolute;
+            left: 311px;
+            top: 323.33px;
+          
+        }
+        .t-shirt>.images{
+            top: 52.165px;
+            left: 45.5px;
+            width: 220px;
+            height: 220px;
+            position: absolute;
+        }
+        .t-shirt>.name{
+            width: 155px;
+            height: 40px;
+            margin-left: 15px;
+            margin-top: 15px;
+            color: #74787a;
+        }
+        .wood-hougai{
+            width: 310px;
+            height: 322.33px;
+            border-bottom: 1px solid #ccc; 
+            position: absolute;
+            top:324.33px;
+            right: 309px; 
+        }
+        .wood-hougai>.images{
+            top: 52.165px;
+            left: 45.5px;
+            width: 220px;
+            height: 220px;
+            position: absolute;
+        }
+        .wood-hougai>.name{
+            width: 155px;
+            height: 40px;
+            margin-left: 15px;
+            margin-top: 15px;
+            color: #74787a;
+        }
+        .thin-ke{
+            width: 310px;
+            height: 324.33px;
+            position: absolute;
+            top:647.66px;
+            left: 0;
+            border:  1px solid #ccc;
+            border-top: 0;
+        }
+        .thin-ke>.images{
+            /* margin-top: 52.165px; */
+            margin-left: 45.5px;
+            width: 220px;
+            height: 220px;
+            position: absolute;
+        }
+        .thin-ke>.name{
+            width: 155px;
+            height: 40px;
+            margin-left: 15px;
+            margin-top: 15px;
+            color: #74787a;
+        }
+        .zipaigan{
+            width: 309px;
+            height: 324.33px;
+            border:1px solid #ccc; 
+            border-left: 0;
+            position: absolute;
+            left: 312px;
+            top: 646.66px;
+        }
+        .zipaigan>.images{
+            /* margin-top: 52.165px; */
+            margin-left: 45.5px;
+            width: 220px;
+            height: 220px
+        }
+        .zipaigan>.name{
+            width: 155px;
+            height: 40px;
+            margin-left: 15px;
+            margin-top: 15px;
+            color: #74787a;
+        }
+        .erji{
+            width: 310px;
+            height: 322.33px;
+            border-bottom: 1px solid #ccc; 
+            position: absolute;
+            top:649.66px;
+            right: 309px; 
+        }
+        .erji>.images{
+            /* margin-top: 52.165px; */
+            margin-left: 45.5px;
+            width: 220px;
+            height: 220px
+        }
+        .erji>.name{
+            width: 185px;
+            height: 40px;
+            margin-left: 15px;
+            margin-top: 15px;
+            color: #74787a;
+        }
+        .bottom{
+            width: 100%;
+            height: 540px;
+            background: #fafafa;
+            margin-top: 70px;
+        }
+       
+    
+      
+
