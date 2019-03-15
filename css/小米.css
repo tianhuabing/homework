@@ -15,7 +15,13 @@ body{
     margin-right: auto;
     position: relative;
 }
-li{
+.nav-left>li{
+    list-style: none;
+    float: left;
+    line-height: 40px;
+    color: #a29999;
+}
+.nav-right>li{
     list-style: none;
     float: left;
     line-height: 40px;
@@ -198,12 +204,11 @@ form {
             text-align: center;
         }
         .nav-head{
-            float: left;
             list-style: none;
-            /* line-height: 40px; */
-            
         }
         .nav-head>li{
+            line-height: 40px;
+            float: left;
             margin-left: 50px;
             color: white;
         }
@@ -550,6 +555,58 @@ form {
             right:15px;
             top: -15px;
         }
+    .check-box{
+        width: 248px;
+        height: 270px;
+        /* background: #b3adad; */
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .check-box>div>span>a{
+        text-decoration: none;
+    }
+    .check-box>div>.jian{
+        position: absolute;
+        right: 0;
+    }
+    .check-box>div>span>a:hover{
+        color: red;
+    }
+    .check-box>div>span>a{
+        color: #7a7a7a;
+        font-size: 18px;
+    }
+    .row1{
+        position: relative;
+        line-height: 50px;
+        width: 248px;
+        border-bottom: #ccc 1px solid;
+    }
+    .row2{
+        position: relative;
+        line-height: 50px;
+        width: 248px;
+        border-bottom: #ccc 1px solid;
+    }
+    .row3{
+        position: relative;
+        line-height: 50px;
+        width: 248px;
+        border-bottom: #ccc 1px solid;
+    }
+    .row4{
+        position: relative;
+        line-height: 50px;
+        width: 248px;
+        border-bottom: #ccc 1px solid;
+    }
+    .row5{
+        position: relative;
+        line-height: 50px;
+        width: 248px;
+        border-bottom: #ccc 1px solid;
+    }
         .key-blooth{
             width: 310px;
             height: 322.33px;
