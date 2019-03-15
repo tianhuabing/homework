@@ -7,6 +7,7 @@ body{
     height: 40px;
     background: #fafafa;
     border-bottom:1px  solid #e1e1e1;
+    /* position: relative; */
 }
 .nav{
     width: 1240px;
@@ -44,6 +45,9 @@ body{
     text-decoration: none;
     color: #a29999;
 }
+/* .nav-left>img{
+    color: #363534;
+} */
 .nav-right>li>a:hover{
     color: #ff4a00;
 }
@@ -575,37 +579,93 @@ form {
     }
     .check-box>div>span>a{
         color: #7a7a7a;
-        font-size: 18px;
+        font-size: 16px;
     }
     .row1{
         position: relative;
-        line-height: 50px;
+        line-height: 45px;
         width: 248px;
         border-bottom: #ccc 1px solid;
     }
     .row2{
         position: relative;
-        line-height: 50px;
+        line-height: 45px;
         width: 248px;
         border-bottom: #ccc 1px solid;
     }
     .row3{
         position: relative;
-        line-height: 50px;
+        line-height: 45px;
         width: 248px;
         border-bottom: #ccc 1px solid;
     }
     .row4{
         position: relative;
-        line-height: 50px;
+        line-height: 45px;
         width: 248px;
         border-bottom: #ccc 1px solid;
     }
     .row5{
         position: relative;
-        line-height: 50px;
+        line-height: 45px;
         width: 248px;
         border-bottom: #ccc 1px solid;
+    }
+    .huafei{
+        width: 248px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #7a7a7a;
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    .input-phonenumber{
+        width: 248px;
+        height: 40px;
+        left: 29px;
+        bottom: 155px;
+    }
+    .input-phonenumber>input{
+        width: 248px;
+        height: 40px;
+    }
+    .input-money{
+        /* border: #ccc solid 1px; */
+        width: 248px;
+        height: 40px;
+        left:29px;
+        bottom: 95px;
+    }
+    .input-money>input{
+        width: 248px;
+        height: 40px;
+    }
+    .real-money{
+        width: 248px;
+        height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 110px;
+    }
+    .real-money>p{
+        font-size: 15px;
+        color: #7a7a7a;
+    }
+    .pay-now{
+        width: 248px;
+        height: 40px;
+        left: 29px;
+        bottom: 10px;
+        border:  #ccc solid 1px;
+        text-align: center;
+        background: #dcdeea;
+        border: #ccc solid 1px;
+    }
+    .pay-now>a{
+        text-decoration: none;
+        line-height: 40px;
+        color: white;
     }
         .key-blooth{
             width: 310px;
