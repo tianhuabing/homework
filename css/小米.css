@@ -9,6 +9,14 @@ body{
     border-bottom:1px  solid #e1e1e1;
     /* position: relative; */
 }
+/* .top-line>.shuxian{
+    width: 1px;
+    height: 18px;
+    background: #e2e2e2;
+    position: absolute;
+    left: 190px;
+    top: 10px;
+} */
 .nav{
     width: 1240px;
     height: 40px;
@@ -20,7 +28,7 @@ body{
     list-style: none;
     float: left;
     line-height: 40px;
-    color: #a29999;
+    color: #bbb5b5;
 }
 .nav-right>li{
     list-style: none;
@@ -562,24 +570,24 @@ form {
     .check-box{
         width: 248px;
         height: 270px;
-        /* background: #b3adad; */
         margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
     }
-    .check-box>div>span>a{
+    .check-box>a{
         text-decoration: none;
+        background: #363534;
     }
-    .check-box>div>.jian{
+    .check-box>a>div>.jian{
         position: absolute;
         right: 0;
     }
-    .check-box>div>span>a:hover{
+    .check-box>a>div:hover{
         color: red;
     }
-    .check-box>div>span>a{
+    .check-box>a>div{
         color: #7a7a7a;
-        font-size: 16px;
+        font-size: 18px;
     }
     .row1{
         position: relative;
@@ -636,11 +644,16 @@ form {
         height: 40px;
         left:29px;
         bottom: 95px;
+        /* position: relative; */
     }
     .input-money>input{
         width: 248px;
         height: 40px;
     }
+    /* .input-money>img{
+        position: absolute;
+        right: 0;
+    } */
     .real-money{
         width: 248px;
         height: 20px;
@@ -826,6 +839,201 @@ form {
             background: #fafafa;
             margin-top: 70px;
         }
+        .after-serve{
+            width: 1240px;
+            height: 158px;
+            border-bottom: 1px solid #ccc;
+            margin:auto;
+            text-align: center;
+        }
+        .serve-1{
+            float: left;
+            width: 115px;
+            height: 115px;
+            margin-left: 40px;
+            margin-top: 40px;
+        }
+        .serve-2{
+            float: left;
+            width: 150px;
+            height: 150px;
+            margin-top: 40px;
+        }
+        .serve-3{
+            float: left;
+            width: 150px;
+            height: 150px;
+            margin-top: 40px;
+        }
+        .serve-4{
+            float: left;
+            width: 150px;
+            height: 150px;
+            margin-top: 40px;
+        }
+        .serve-5{
+            float: left;
+            width: 150px;
+            height: 150px;
+            margin-top: 40px;
+        }
+        .after-serve>div>p{
+            margin-top: 10px;
+            color: #909090;
+        }
+        .after-serve>div:not(:first-child){
+            margin-left: 100px;
+        }
+        .serve-center{
+            width: 1240px;
+            height: 135px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 40px;
+            position: relative;
+        }
+        .serve-center>.shuxian1,.shuxian2,.shuxian3,.shuxian4,.shuxian5{
+            width: 1px;
+            height: 120px;
+            background: #ccc;
+            position: absolute;
+        }
+        .serve-center>.shuxian1{
+            left: 171px;
+
+        }
+        .serve-center>.shuxian2{
+            left: 373px;
+
+        }
+        .serve-center>.shuxian3{
+            left: 615px;
+
+        }
+        .serve-center>.shuxian4{
+            left: 817px;
+
+        }
+        .serve-center>.shuxian5{
+            left: 976px;
+
+        }
+        .serve-center>.first-ul{
+            list-style: none;
+          
+        }
+        .serve-center>.first-ul>li:not(:first-child){
+            margin-left: 130px;
+        }
+        .serve-center>.first-ul>li{
+            float: left;
+        }
+        .serve-center>.first-ul>li>ul{
+            list-style: none;
+        }
+        .serve-center>.first-ul>li>ul>.first-li{
+            font-size:18px;
+            color: #1f1e1d;
+        }
+        .serve-center>.first-ul>li>ul>li:not(:first-child){
+            margin-top: 10px;
+            font-size: 14px;
+            color: #7a7a7a;
+        }
+        .serve-center-bottomline{
+            width: 1240px;
+            height: 1px;
+            background: #cccc;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .serve-part{
+            float: left;
+            width: 200px;
+            height: 140px;
+            text-align:center;
+            margin-left: 100px;
+            /* background: #b8b7b6; */
+        }
+        .serve-part>.phone-number{
+            font-size: 30px;
+            color: #999999;
+            
+        }
+        .serve-part>.serve-time{
+            color: #7f7f7f;
+            font-size: 12px;
+            margin-top: 8px
+        }
+        .serve-part>.money{
+            color: #7f7f7f;
+            font-size: 12px;
+            margin-top: 2px;
+        }
+        .serve-part>.allday-serve{
+            margin-top: 5px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 120px;
+            height: 35px;
+            background: #ff4a00;
+        }
+        .serve-part>.allday-serve>a{
+            text-decoration: none;
+            color: white;
+            line-height: 35px;
+            font-size: 12px;
+        }
+    .bottom-words{
+        text-align: center;
+        width: 1240px;
+        height: 60px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .up-words{
+        width: 830px;
+        height: 30px;
+        margin: auto;
+    }
+    .up-words>ul>li{
+        float: left;
+        list-style: none;
+        margin-left: 10px;
+        font-size: 13px;
+        color: #414040;
+    }
+    .down-words>span{
+        color: #414040;
+        font-size: 13px;
+    }
+    .reliable-part{
+        width: 1240;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        position: relative;
+    }
+    .reliable-part>.img1{
+        width: 169px;
+        height: 25px;
+        margin-top: 7.5px;
+    }
+    .reliable-part>.img2{
+        position: absolute;
+        top: 15px;
+        right: 480px;
+    }
+    .reliable-part>input{
+        width: 170px;
+        height: 30px;
+        position: absolute;
+        top:5.5px;
+        left: 862px;
+    }
+  
        
     
       
