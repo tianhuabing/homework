@@ -215,21 +215,23 @@ form {
             overflow: hidden;
             text-align: center;
         }
-        .nav-head{
+.nav-head{
             list-style: none;
         }
         .nav-head>li{
             line-height: 40px;
             float: left;
-            margin-left: 50px;
             color: white;
         }
         .nav-head>li>a{
+            width: 99.2px;
+            display: block;
             text-decoration: none;
             color: white;
         }
         .nav-head>li>a:hover{
-            color: #ff4a00;
+            color: #fcfaf9;
+            background: #2da3eb;
         }
         .chazuo-img{
             width: 992px;

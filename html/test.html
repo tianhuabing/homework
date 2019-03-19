@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        ul{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        .nav>li{
+            float: left;
+        }
+        ul a{
+            display: block;
+            background:rgba(8, 0, 0, 0.267);
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            color: white;
+        }
+        .nav>li:first-child a{
+            border-radius: 10px 0 0 10px;
+        }
+        .nav>li:last-child a{
+            border-radius: 0 10px 10px 0;
+        }
+        .drop-down-content>li a:hover{
+            background: red;
+        }
+        .drop-down-content{
+            padding: 0;
+            height: 0;
+            overflow: hidden;
+            transition: all 0.5s ease;
+
+        }
+         .drop-down:hover .drop-down-content{
+            height: 150px;
+        }
+        .drop-down-content>li:last-child a{
+            border-radius: 0 0 10px 10px;
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav">
+        <li>
+            <a href="#">首页</a></li>
+        <li class="drop-down">
+            <a href="#">作品</a>
+            <ul class="drop-down-content">
+                <li><a href="#">作品1</a></li>
+                <li><a href="#">作品2</a></li>
+                <li><a href="#">作品3</a></li>
+            </ul>
+        </li>
+        <li><a href="#">关于</a></li>
+    </ul>
+</body>
+</html>

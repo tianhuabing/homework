@@ -1,7 +1,10 @@
 *{margin:0;padding:0}
+body{
+    position: relative;
+}
             .head{
                 line-height: 50px;
-                background-color: aqua;
+                background-color: rgba(136, 139, 138, 0.445);
                 text-align: center;
     
             }
@@ -38,4 +41,24 @@
             }
             li{
                 margin-top: 10px;
+            }
+            .first-page{
+                top: 61px;
+                right:404px;
+                position: absolute;
+                width: 80px;
+                height: 34px;
+                text-align: center;
+            }
+            a{
+                text-decoration: none;
+                display: block;
+                width: 80px;
+                line-height: 34px;
+                background: #dddd;
+
+            }
+            a:hover{
+                background: rgb(68, 67, 67);
+                color: white;
             }

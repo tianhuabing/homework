@@ -17,7 +17,22 @@
 }
 .start{float: left;;overflow:hidden}
 .end{float: right;overflow:hidden}
-.menu>a{margin-right:60px;text-decoration: none;font-size: 20px;color:#333;}
+.menu>a{
+    /* margin-right:60px; */
+    text-decoration: none;
+    font-size: 20px;
+    color:#333;
+}
+.menu>a{
+    display: block;
+    float: left;
+    width: 80px;
+}
+.menu>a:hover{
+    background: #4C4C4C;
+    color: white;
+
+}
 .start>.icon{display: block;width:19px;height:19px;background:url("../images/location.png");
     position:absolute;top:50%;margin-top:-10px
 }
