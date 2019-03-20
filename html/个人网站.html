@@ -9,10 +9,18 @@
     <title>PersonalNet</title>
 </head>
 <body>
-    <!-- <div class="color-change-line"></div> -->
-    <div class="drop-top">
-
+    <div  class="body-background">
+            <div class="welcome">
+                <h1>Welcome to my world</h1>
+                <h3>Life is so colorful that every detail should be treasured.</h3>
+            </div>
+            <img src="../images/sea.jpg" alt="">
     </div>
+    <div class="drop-top">
+    </div>
+    <div class="drop-top">
+            <a href="#"><img src="../images/返回顶部箭头30.png" alt=""></a>
+        </div>
     <div class="top-nav">
         <div class="top-nav-left">
             <p>我的小站</p>
@@ -23,7 +31,7 @@
         </div>
         <div class="top-nav-right">
             <ul>
-                <li><a href="#">主页</a></li>
+                <li><a href="./个人网站.html">主页</a></li>
                 <li class="drop-down">
                     <a href="#">作品</a>
                     <ul class="drop-down-content">
@@ -33,8 +41,8 @@
                 <li class="drop-down">
                     <a href="#">关于我</a>
                     <ul class="drop-down-content">
-                            <li><a href="#">我自己</a></li>
-                            <li><a href="#">我的家乡</a></li>
+                            <li><a href="#about-me" target="frame">我自己</a></li>
+                            <li><a href="#" target="frame">我的家乡</a></li>
                     </ul>
                 </li>
                 <li class="drop-down">
@@ -48,9 +56,49 @@
             </ul>
         </div>
     </div>
-    <div class="drop-top">
-        <a href="#"><img src="../images/返回顶部箭头30.png" alt=""></a>
+    <div class="search">
+            <input type="text" placeholder="search">
+           <img src="../images/search.png" alt="">
+   </div>
+    <div id="about-me">
+            <h1>About me</h1>
     </div>
+    <div class="fenge"></div>
+   
+    <div class="about-travel">
+                <p class="p1">We've been traveling, waiting for someone to be the partner of our journey, to accompany us through a memory that no one else can replace.</p>
+                <p class="p2">我们一直在旅行，一直在等待某个人可以成为我们旅途的伴侣，陪我们走过一段别人无法替代的记忆。</p>
+    </div>
+    <div class="cycle">
+            <img src="../images/cycle.jpg" alt="">
+            <div class="about-dream">
+            </div>
+            <div class="my-hobby">
+                    <p class="p1"> My dream------Rid to Tibet</p>
+                    <p class="p2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;旅行即是旅行，走过的路，趟过的河，翻过的山，你带来与带走的都只是关于自己的记忆，可以有意义，可以无意义，路还那条路，河还是那条河，山还是那座山。</p>
+                    <p class="p3">My sport------Play badminton</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;羽毛球是运动量很大的运动，无论它是有氧的还是无氧运动，每一场都会消耗你很多的热量。羽毛球也可以说是最好的减肪运动，但是需要多个方面配合才有效。比如合理的饮食和休息。</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.坚持羽毛球运动，配合健康的饮食。可以让你的身材变得更好</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.可以消除一些办公室病或者是教室病</p>
+                    <p class="p4">My hobby------Watching movies</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1、可以放松心情，体验不一样的生活方式。虽然电影是艺术形式，但艺术终究来源于生活。通过看电影可以体验不一样的人生经历。</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2、通过观看外国电影的形式来学习外语，锻炼听力和口语。</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3、通过观看国内外各种电影，可以加深对不同文化底蕴和乡土风情的理解，改变自己对人生和生活的看法，以积极面对未来的挑战</p>
+                 
+            </div>
+    </div>
+    <div class="about-hometown">
+        <h1>My hometown</h1>
+    </div>
+    <div class="fenge"></div>
+    <div class="about-xiushan">
+
+    </div>
+   
+   
+   
+
+
     <script>
             /* jquery动画
             $(selector).animate(attr,duration)
@@ -59,7 +107,7 @@
              */
             $(".drop-top").click(function(){
                 // $(this).animate({width:"200px"},1000).animate({height:"200px"},1000)
-                $("html,body").animate({scrollTop:"0"},800)
+                $("html,body").animate({scrollTop:"0"},500)
             })
     </script>
 </body>

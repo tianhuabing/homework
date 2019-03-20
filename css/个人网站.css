@@ -1,32 +1,7 @@
 *{margin: 0;padding: 0;}
-/* @keyframes animate{
-    0%{
-       background: #333;
-    }
-    25%{
-        background: green;
-        width:25%;
-    }
-    50%{
-        background: blue;
-        width:50%;
-    }
-    70%{
-        background: yellow;
-        width:70%;
-    }
-    100%{
-        background:green;
-        width:100%;
-    }
-}
-.color-change-line{
-    animation: animate 2s infinite;
-    height:1px;
-    position: absolute;
-    top: 50px;
-} */
+
 .drop-top{
+    box-shadow:0 0 10px 5px rgb(98, 100, 98);
     text-align: center;
     background: rgb(20, 19, 19);
     opacity: 0.5;
@@ -45,17 +20,34 @@
     background: 0;
 }
 body{
-    background:url("../images/body-background\(1\).jpg");
+    /* background:url("../images/body-background\(1\).jpg");
     background-repeat:no-repeat;
-    background-size:100%;
-    height: 2000px;
-    position: relative;
+    background-size:100%; */
+     height: 2000px;
+    /* position: relative; */
+}
+.body-background>.welcome{
+    opacity: 0.8;
+    font-style: italic;
+    width: 1000px;
+    height: 50px;
+    position: absolute;
+    top:200px;
+    left: 183px;
+    text-align: center;
+}
+.welcome>h1,h3{
+    line-height: 50px;
+    color: rgb(71, 7, 122);
+    opacity: 0.5;
 }
 .top-nav{
     width: 100%;
     height: 50px;
     background-color: rgb(8, 8, 8,0.5);
     position: relative;
+    position: absolute;
+    top: 0px;
 }
 .top-nav-left{
     width: 50%;
@@ -71,7 +63,6 @@ body{
 .top-nav-right{
     width: 50%;
     height: 50px;
-    /* background:rgb(47, 36, 151); */
     float: left;
     position: absolute;
     right: 0;
@@ -88,17 +79,17 @@ a{
 }
 a:hover{
     color:white;
-    background: rgb(123, 185, 50);
+    background: #623466;
 }
 /* 下拉菜单 */
 .drop-down-content a{
-    background: rgb(70, 161, 58);
+    background: rgb(149, 121, 172);
 }
 .drop-down-content li:last-child a{
     border-radius: 0 0 15px 15px;
 }
 .drop-down-content a:hover{
-    background:rgba(20, 218, 46, 0.5);
+    background:#a353e4;
 }
 .drop-down-content{
     padding: 0;
@@ -121,4 +112,113 @@ a:hover{
     float: left;
     width: 100px;
 
+}
+.fenge{
+    width: 1000px;
+    height: 2px;
+    background: #cccc;
+    margin: auto;
+}
+#about-me{
+    /* position: relative; */
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    
+}
+#about-me>h1{
+    line-height: 50px;
+    color: rgba(87, 85, 85, 0.8);
+}
+.search{
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+.search>input{
+    margin-top: 10px;
+    width: 1000px;
+    height: 30px;
+    padding-left: 20px;
+    border:none;
+    background: #eee;
+    border-radius: 20px;
+}
+.search>img{
+    position: absolute;
+    top:14px;
+    right:175px;
+}
+.about-travel{
+    width: 1000px;
+    height:50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+.about-travel>p{
+    margin-left: 2px;
+    color: rgba(32, 31, 31, 0.8);
+    font-style: italic;
+    font-size: 17px;
+}
+.cycle{
+    margin: auto;
+    margin-top: 10px;
+    position: relative;
+    width: 1000px;
+}
+.about-dream{
+    width: 1000px;
+    height: 665px;
+    position: absolute;
+    background: rgb(165, 158, 158);
+    opacity: 0.5;
+    top: 0px;
+    left: 0px;
+    /* box-shadow:0 0 10px 10px #ccc; */
+    border: none;
+    outline: none;
+}
+.my-hobby{
+    position: absolute;
+    width: 1000px;
+    top: 0;
+}
+.my-hobby>p{
+    margin-left: 20px;
+    font-size: 18px;
+    font-style: italic;
+    color: rgb(31, 30, 30);
+} 
+.my-hobby>.p1{
+    font-size: 20px;
+    margin-top:50px;
+    margin-left: 400px;
+}
+.my-hobby>.p3{
+    font-size: 20px;
+    margin-top:50px;
+    margin-left: 400px;
+}
+.my-hobby>.p4{
+    font-size: 20px;
+    margin-top:50px;
+    margin-left: 400px;
+}
+.about-hometown{
+    width: 100%;
+    height: 50px;
+    text-align:center;
+}
+.about-hometown>h1{
+    line-height: 50px;
+    color: rgba(87, 85, 85, 0.8);
+}
+.about-xiushan{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+    background: #ccc;
 }
