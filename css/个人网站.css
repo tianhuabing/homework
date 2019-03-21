@@ -143,11 +143,11 @@ a:hover{
     background: #eee;
     border-radius: 20px;
 }
-.search>img{
+/* .search>img{
     position: absolute;
     top:14px;
     right:175px;
-}
+} */
 .about-travel{
     width: 1000px;
     height:50px;
