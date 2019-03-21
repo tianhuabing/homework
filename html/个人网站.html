@@ -32,7 +32,13 @@
         </div>
         <div class="top-nav-right">
             <ul>
-                <li><a href="./个人网站.html">Homepage</a></li>
+                <li class="drop-down" >
+                    <a href="./个人网站.html">Homepage</a>
+                    <ul class="drop-down-content">
+                            <li><a href="#bottom-container">To bottom</a></li>
+                    </ul>
+                </li>
+                
                 <li class="drop-down">
                     <a href="#">Works</a>
                     <ul class="drop-down-content">
@@ -43,7 +49,7 @@
                     <a href="#">About me</a>
                     <ul class="drop-down-content">
                             <li><a href="#about-me" target="frame">Me</a></li>
-                            <li><a href="#about-hometown" target="frame">My hometown</a></li>
+                            <li><a href="#about-books" target="frame">My books</a></li>
                     </ul>
                 </li>
                 <li class="drop-down">
@@ -88,12 +94,28 @@
                  
             </div>
     </div>
-    <div id="about-hometown">
-        <h1>My hometown</h1>
+    <div id="about-books">
+        <h1>My books</h1>
     </div>
     <div class="fenge"></div>
     <div class="about-xiushan">
-
+        <ul>
+            <li><a href="https://book.douban.com/subject/26954760/"><img src="../images/月亮与六便士.jpg" alt=""></a></li>
+            <li><a href="https://book.douban.com/subject/1089243/"><img src="../images/黄金时代.jpg" alt=""></a></li>
+            <li><a href="https://book.douban.com/subject/4908885/"><img src="../images/局外人.jpg" alt=""></a></li>
+            <li class="row-2"><a href="#"><img src="../images/Morning1.jpg" alt=""></a></li>
+            <li class="row-2"><a href="#"><img src="../images/Morning2.jpg" alt=""></a></li>
+            <li class="row-2"><a href="#"><img src="../images/Morning3.jpg" alt=""></a></li>
+        </ul>
+    </div>
+    <div class="bottom-line"></div>
+    <div id="bottom-container">
+        <div class="container">
+                <span>版权&copy;:版权所有，违者必究。</span>
+                <span>技术支持:武汉工程大学16物联网</span>
+                <address>Email:1063587060@qq.com</address>
+                <address>@A大斌</address>
+        </div>
     </div>
    
    
@@ -108,7 +130,7 @@
              */
             $(".drop-top").click(function(){
                 // $(this).animate({width:"200px"},1000).animate({height:"200px"},1000)
-                $("html,body").animate({scrollTop:"0"},500)
+                $("html,body").animate({scrollTop:"0"},1000)
             })
     </script>
 </body>

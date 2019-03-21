@@ -20,7 +20,7 @@
     background: 0;
 }
 body{
-     height: 2000px;
+     height:2870px;
 }
 .body-background>img{
     width: 100%;
@@ -88,7 +88,7 @@ a:hover{
     border-radius: 0 0 15px 15px;
 }
 .drop-down-content a:hover{
-    background:#a353e4;
+    background:#623466;
 }
 .drop-down-content{
     padding: 0;
@@ -205,19 +205,68 @@ a:hover{
     margin-top:50px;
     margin-left: 400px;
 }
-#about-hometown{
+#about-books{
     width: 100%;
     height: 50px;
     text-align:center;
 }
-#about-hometown>h1{
+#about-books>h1{
     line-height: 50px;
     color: rgba(87, 85, 85, 0.8);
 }
 .about-xiushan{
     width: 1000px;
-    height: 500px;
+    height: 1141px;
     margin: auto;
     margin-top: 20px;
-    background: #ccc;
+    border-radius: 2%;
+    background: url("../images/大海2.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    box-shadow: 0 0 10px 10px #cccc;
 }
+.about-xiushan ul{
+    list-style: none;
+}
+.about-xiushan ul li{
+    float: left;
+    width: 300px;
+    height: 533px;
+    margin-left: 25px;
+    margin-top: 25px;
+    opacity: 0.8;
+}
+.about-xiushan ul>li>a>img{
+    border-radius: 5%;
+    
+}
+.about-xiushan ul li a:hover{
+    /* cursor: pointer; */
+    background: none;
+}
+.about-xiushan ul li img:hover{
+    box-shadow: 0 0 10px 10px rgb(122, 198, 201);
+}
+.bottom-line{
+    width: 100%px;
+    height: 1px;
+    background: rgba(112, 109, 109, 0.8);
+    margin: auto;
+    margin-top:50px;
+    /* margin-bottom: 10px; */
+}
+#bottom-container{
+    width: 100%;
+    /* background: #7a7a7a; */
+    margin-bottom: 20px;
+}
+.container{
+    text-align: center;
+    font-size: 16px;
+    width: 500px;
+    margin: auto;
+    color: #7a7a7a;
+}
+
+
+
