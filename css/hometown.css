@@ -69,9 +69,16 @@ body{
     right: 10px;
     opacity: 0.5;
 }
+.control-navline{
+    width: 10px;
+    height: 2200px;
+    position: relative;
+    background: #080707;
+    margin: auto;
+}
 .nav-line{
-    top: 600px;
-    left: 670px;
+    /* top: 600px;
+    left: 670px; */
     position: absolute;
     width: 5px;
     height: 2200px;
