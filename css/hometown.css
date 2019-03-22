@@ -1,0 +1,229 @@
+*{margin: 0;padding: 0;}
+body{
+    position: relative;
+    height: 2850px;
+}
+.top-background{
+    height: 600px;
+    width: 100%;
+    background: url("../images/bodyback.jpg");
+    background-size: cover;
+}
+.top-nav{
+    list-style: none;
+}
+.top-nav li{
+    float: right;
+}
+.top-nav a{
+    display: block;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background: rgb(173, 196, 46);
+    margin-top: 50px;
+    margin-right: 20px;
+    opacity: 0.8;
+    border-radius:50%;
+}
+.top-nav a:hover{
+    background: rgba(32, 99, 175, 0.8);
+    color: black;
+}
+#name-xiushan{
+    position: relative;
+    width: 40%;
+    height: 500px;
+    margin-left:70px;
+    margin-top: 20px;
+    /* text-align: center; */
+    background: url("../images/xiushan.jpg");
+    border-radius: 20px;
+    box-shadow: 0 0 8px 8px #252424;
+}
+#name-xiushan p{
+    margin-left:45%;
+    line-height: 30px;
+    font-style: italic;
+    font-size: 25px;
+    color: #080707;
+}
+#name-xiushan .line{
+    width: 100%;
+    height: 3px;
+    background: #080707;
+    border-radius:30px;
+    opacity: 0.3;
+}
+#name-xiushan span{
+    margin-top: 20px;
+    font-size: 12px;
+    color: #0a0a0a;
+}
+.map{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: 0.5;
+}
+.nav-line{
+    top: 600px;
+    left: 670px;
+    position: absolute;
+    width: 5px;
+    height: 2200px;
+    background: rgb(54, 53, 53);
+    border-radius: 10px;
+}
+.long-jiantou1{
+    position: absolute;
+    top: 650px;
+    left: 608px;
+}
+.long-jiantou2{
+    position: absolute;
+    top: 900px;
+    left: 675px;
+}
+.long-jiantou1-1{
+    position: absolute;
+    top: 1360px;
+    left: 608px;
+}
+#foods{
+    position: absolute;
+    top: 820px;
+    right: 10px;
+    width:600px;
+    height: 680px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background: url("../images/midoufuback.jpg");
+    box-shadow: 0 0 8px 8px #252424;
+
+}
+#foods p{
+    margin-left:45%;
+    line-height: 30px;
+    font-style: italic;
+    font-size: 25px;
+    color: #080707;
+}
+#foods .line{
+    width: 89%;
+    height: 3px;
+    background: #080707;
+    border-radius:30px;
+    opacity: 0.3;
+}
+#foods ul{
+    list-style: none;
+}
+#foods li{
+    float: left;
+}
+#foods div{
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 33.33px;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+}
+#foods span{
+    font-size: 12px;
+
+}
+#foods span:hover{
+   color: #ee0927;
+   cursor: pointer;
+}
+#foods img{
+    border-radius: 10px;
+}
+#foods a{
+    display: block;
+    width: 250px;
+    height: 166px;
+    background:none;
+    border-radius: 10px;
+}
+#foods a:hover{
+    box-shadow: 0 0 5px 5px rgb(61, 57, 57);
+}
+#scenery{
+    text-align: center;
+    position: absolute;
+    top: 1300px;
+    left: 10px;
+    width:600px;
+    height:1500px;
+    margin-top: 20px;
+    border-radius: 20px;
+    /* background: url("../images/midoufuback.jpg"); */
+    box-shadow: 0 0 8px 8px #252424;
+}
+#scenery p{
+    /* margin-left:45%; */
+    line-height: 30px;
+    font-style: italic;
+    font-size: 25px;
+    color: #080707;
+}
+#scenery .line{
+    width: 100%;
+    height: 3px;
+    background: #080707;
+    border-radius:30px;
+    opacity: 0.3;
+}
+#scenery ul{
+    list-style: none;
+}
+#scenery div{
+    width: 500px;
+    height: 360px;
+    /* background: red; */
+    margin: auto;
+    margin-top: 10px;
+}
+#scenery div .line{
+    width: 100%;
+    height: 1px;
+    background: #080707;
+    border-radius:30px;
+    opacity: 0.3;
+}
+#scenery div a{
+    font-size: 14px;
+}
+#scenery a{
+    
+    overflow: hidden;
+    width: 500px;
+    /* background: red; */
+}
+#scenery img{
+    box-shadow: 0 0 5px 5px #585757;
+    margin-top: 10px;
+    border-radius: 5%;
+}
+.bottom-container{
+    width: 674px;
+    height: 50px;
+    position: absolute;
+    right: 0px;
+    bottom: -40px;
+    text-align: center;
+    /* background: red; */
+}
+.bottom-container .line{
+    width: 100%;
+    height: 1px;
+    background: #080707;
+    border-radius:30px;
+    opacity: 0.3;
+}
