@@ -70,18 +70,18 @@ body{
     opacity: 0.5;
 }
 .control-navline{
-    width: 10px;
+    width: 120px;
     height: 2200px;
     position: absolute;
     position: relative;
-    /* background: #080707; */
+    /* background: #615e5e; */
     top:-511px;
     text-align: center;
     margin: auto;
 }
 .nav-line{
-    /* top: 600px;
-    left: 670px; */
+    top: 0;
+    left: 52.5px;
     position: absolute;
     width: 5px;
     height: 2200px;
@@ -90,19 +90,19 @@ body{
 }
 .long-jiantou1{
     position: absolute;
-    top: 650px;
-    left: 608px;
+    top: 50px;
+    right:0px;
 }
 .long-jiantou2{
     position: absolute;
-    top: 900px;
-    left: 675px;
+    top: 300px;
+    left:0px;
 }
 .long-jiantou1-1{
     position: absolute;
-    top: 1360px;
-    left: 608px;
-}
+    top: 800px;
+    right:0px;
+} 
 #foods{
     position: absolute;
     top: 820px;
